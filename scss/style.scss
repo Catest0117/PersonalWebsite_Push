@@ -7,68 +7,26 @@
     //加入判斷裝置的斷點
     // 超小裝置(<576px)、Max-width 最大寬度
     @media screen and (max-width:576px) {
-        main{
-            /* 寬度 */
-            width: 50%;
-            /* 背景顏色 */
-            background-color: brown;
-            /* 文字顏色 */
-            color: rgb(62, 73, 51);
-        }    
+        @import'0_ultra_small.scss';
     }
     //小裝置>=576px(最小寬度(含等於))
     @media screen and (min-width:576px) {
-        main{
-            /* 寬度 */
-            width: 100%;
-            /* 背景顏色 */
-            background-color: rgb(69, 42, 165);
-            /* 文字顏色 */
-            color: rgb(62, 73, 51);
-        }    
+        @import'1_small.scss';
     }
     //平板裝置 <=768px
     @media screen and(min-width:768px) {
-        main{
-            /* 寬度 */
-            width: 100%;
-            /* 背景顏色 */
-            background-color: rgb(135, 121, 187);
-            /* 文字顏色 */
-            color: rgb(62, 73, 51);
-        }            
+        @import'2_median.scss';
     }
     //大平板 >=992px
     @media screen and(min-width:992px) {
-        main{
-            /* 寬度 */
-            width: 100%;
-            /* 背景顏色 */
-            background-color: rgb(114, 206, 62);
-            /* 文字顏色 */
-            color: rgb(62, 73, 51);
-        }            
+        @import'3_huge.scss';
     }
     
     //螢幕裝置 >=1200px
     @media screen and(min-width:1200px) {
-        main{
-            /* 寬度 */
-            width: 100%;
-            /* 背景顏色 */
-            background-color: rgb(196, 172, 172);
-            /* 文字顏色 */
-            color: rgb(62, 73, 51);
-        }            
+        @import'4_ultra_huge.scss';
     }
     //超大螢幕裝置 >=1400px
     @media screen and(min-width:1400px) {
-        main{
-            /* 寬度 */
-            width: 100%;
-            /* 背景顏色 */
-            background-color: rgb(156, 36, 136);
-            /* 文字顏色 */
-            color: rgb(62, 73, 51);
-        }            
+        @import'5_the_hugest.scss';
     }
