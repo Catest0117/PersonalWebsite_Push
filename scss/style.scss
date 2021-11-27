@@ -1,9 +1,6 @@
+    @import'_common.scss';
     /* 樣式 */
     /* 對應 HTML 5 標籤、id 、class */
-    header{
-        width: 100%;
-        background-color: red;
-    }
     //加入判斷裝置的斷點
     // 超小裝置(<576px)、Max-width 最大寬度
     @media screen and (max-width:576px) {
