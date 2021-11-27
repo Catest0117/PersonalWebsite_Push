@@ -6,21 +6,62 @@ header {
   background-color: red;
 }
 
-main {
-  /* 寬度 */
-  width: 50%;
-  /* 背景顏色 */
-  background-color: burlywood;
-  /* 文字顏色 */
-  color: #3e4933;
-}
-
 @media screen and (max-width: 576px) {
   main {
     /* 寬度 */
-    width: 50px;
+    width: 50%;
     /* 背景顏色 */
     background-color: brown;
+    /* 文字顏色 */
+    color: #3e4933;
+  }
+}
+@media screen and (min-width: 576px) {
+  main {
+    /* 寬度 */
+    width: 100%;
+    /* 背景顏色 */
+    background-color: #452aa5;
+    /* 文字顏色 */
+    color: #3e4933;
+  }
+}
+@media screen and (min-width: 768px) {
+  main {
+    /* 寬度 */
+    width: 100%;
+    /* 背景顏色 */
+    background-color: #8779bb;
+    /* 文字顏色 */
+    color: #3e4933;
+  }
+}
+@media screen and (min-width: 992px) {
+  main {
+    /* 寬度 */
+    width: 100%;
+    /* 背景顏色 */
+    background-color: #72ce3e;
+    /* 文字顏色 */
+    color: #3e4933;
+  }
+}
+@media screen and (min-width: 1200px) {
+  main {
+    /* 寬度 */
+    width: 100%;
+    /* 背景顏色 */
+    background-color: #c4acac;
+    /* 文字顏色 */
+    color: #3e4933;
+  }
+}
+@media screen and (min-width: 1400px) {
+  main {
+    /* 寬度 */
+    width: 100%;
+    /* 背景顏色 */
+    background-color: #9c2488;
     /* 文字顏色 */
     color: #3e4933;
   }
