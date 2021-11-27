@@ -12,3 +12,15 @@
         /* 文字顏色 */
         color: rgb(62, 73, 51);
     }
+    //加入判斷裝置的斷點
+    // 超小裝置(<576px)、
+    @media screen and (max-width:576px) {
+        main{
+            /* 寬度 */
+            width: 50px;
+            /* 背景顏色 */
+            background-color: brown;
+            /* 文字顏色 */
+            color: rgb(62, 73, 51);
+        }    
+    }
