@@ -1,3 +1,8 @@
+//變數
+$NavWidth:100;
+$NavHeight:100;
+
+//繼承
 %Dn{
     display: none;
 }
@@ -6,7 +11,10 @@
     color:white;    
 }
 header{
+    width: $NavWidth;
+    height: $NavHeight;
     nav{
+
         #Works, #Author, #Project, #Contant{
             @extend %Dn;
         }
