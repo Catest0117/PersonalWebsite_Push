@@ -1,10 +1,8 @@
-%Dn{
-    display: none;
-}
+
 header{
     nav{
         #Works, #Author, #Project, #Contant{
-            @extend %Dn;
+            display: none;
         }
     }
 }

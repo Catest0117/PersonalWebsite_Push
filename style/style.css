@@ -7,21 +7,12 @@
 /* 樣式 */
 /* 對應 HTML 5 標籤、id 、class */
 @media screen and (max-width: 576px) {
-  header nav #Works, header nav #Author, header nav #Project, header nav #Contant {
+  footer nav, header nav #Works, header nav #Author, header nav #Project, header nav #Contant {
     display: none;
   }
 }
 @media screen and (min-width: 576px) {
-  header nav #Works {
-    display: none;
-  }
-  header nav #Author {
-    display: none;
-  }
-  header nav #Project {
-    display: none;
-  }
-  header nav #Contant {
+  header nav #Works, header nav #Author, header nav #Project, header nav #Contant {
     display: none;
   }
 }
