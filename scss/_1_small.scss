@@ -1,8 +1,28 @@
-
 header{
+    width: $NavWidth;
+    height: $NavHeight;
+    background-color:rgb(135, 138, 182);
     nav{
+
         #Works, #Author, #Project, #Contant{
-            display: none;
+            //@extend %Dn;
+        }
+    }
+}
+
+footer{
+    nav{
+        #SubNavA{
+            //@extend %SubNav;
+            background-color: blue;            
+        }
+        #SubNavB{
+            //@extend %SubNav;
+            background-color: blueviolet;
+        }
+        #SubNavC{
+            //@extend %SubNav;
+            background-color: brown;
         }
     }
 }

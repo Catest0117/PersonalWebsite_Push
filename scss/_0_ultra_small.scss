@@ -1,6 +1,4 @@
-//變數
-$NavWidth:100;
-$NavHeight:100;
+
 
 //繼承
 %Dn{
@@ -12,9 +10,21 @@ $NavHeight:100;
 }
 header{
     width: $NavWidth;
-    height: $NavHeight;
+    //height: $NavHeight;
+    background-color:rgb(135, 138, 182);
     nav{
-
+        li{
+            float: left;
+        }
+        .Clear{
+            clear:both;
+        }
+        #Logo{
+            width: $W8;
+        }
+        #Menu{
+            width: $W2;
+        }        
         #Works, #Author, #Project, #Contant{
             @extend %Dn;
         }
