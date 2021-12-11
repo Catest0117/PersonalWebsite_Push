@@ -4,26 +4,26 @@
     //加入判斷裝置的斷點
     // 超小裝置(<576px)、Max-width 最大寬度
     @media screen and (max-width:576px) {
-        @import'0_ultra_small.scss';
+        @import'_0_ultra_small.scss';
     }
     //小裝置>=576px(最小寬度(含等於))
     @media screen and (min-width:576px) {
-        @import'1_small.scss';
+        @import'_1_small.scss';
     }
     //平板裝置 <=768px
     @media screen and(min-width:768px) {
-        @import'2_median.scss';
+        @import'_2_median.scss';
     }
     //大平板 >=992px
     @media screen and(min-width:992px) {
-        @import'3_huge.scss';
+        @import'_3_huge.scss';
     }
     
     //螢幕裝置 >=1200px
     @media screen and(min-width:1200px) {
-        @import'4_ultra_huge.scss';
+        @import'_4_ultra_huge.scss';
     }
     //超大螢幕裝置 >=1400px
     @media screen and(min-width:1400px) {
-        @import'5_the_hugest.scss';
+        @import'_5_the_hugest.scss';
     }
