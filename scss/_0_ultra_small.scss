@@ -1,8 +1,10 @@
-main{
-    /* 寬度 */
-    width: 50%;
-    /* 背景顏色 */
-    background-color: brown;
-    /* 文字顏色 */
-    color: rgb(62, 73, 51);
-}    
+%Dn{
+    display: none;
+}
+header{
+    nav{
+        #Works, #Author, #Project, #Contant{
+            @extend .Dn;
+        }
+    }
+}

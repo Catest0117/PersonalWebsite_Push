@@ -1,7 +1,10 @@
+%Dn{
+    display: none;
+}
 header{
     nav{
-        #Works{
-            display: none;
+        #Works, #Author, #Project, #Contant{
+            @extend .Dn;
         }
     }
-}    
+}
