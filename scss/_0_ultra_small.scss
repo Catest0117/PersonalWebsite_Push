@@ -1,6 +1,10 @@
 %Dn{
     display: none;
 }
+%SubNav{
+    width: 50%;
+    color:white;    
+}
 header{
     nav{
         #Works, #Author, #Project, #Contant{
@@ -11,6 +15,17 @@ header{
 
 footer{
     nav{
-        @extend %Dn;
+        #SubNavA{
+            @extend %SubNav;
+            background-color: blue;            
+        }
+        #SubNavB{
+            @extend %SubNav;
+            background-color: blueviolet;
+        }
+        #SubNavC{
+            @extend %SubNav;
+            background-color: brown;
+        }
     }
 }

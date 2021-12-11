@@ -7,8 +7,23 @@
 /* 樣式 */
 /* 對應 HTML 5 標籤、id 、class */
 @media screen and (max-width: 576px) {
-  footer nav, header nav #Works, header nav #Author, header nav #Project, header nav #Contant {
+  header nav #Works, header nav #Author, header nav #Project, header nav #Contant {
     display: none;
+  }
+
+  footer nav #SubNavC, footer nav #SubNavB, footer nav #SubNavA {
+    width: 50%;
+    color: white;
+  }
+
+  footer nav #SubNavA {
+    background-color: blue;
+  }
+  footer nav #SubNavB {
+    background-color: blueviolet;
+  }
+  footer nav #SubNavC {
+    background-color: brown;
   }
 }
 @media screen and (min-width: 576px) {
