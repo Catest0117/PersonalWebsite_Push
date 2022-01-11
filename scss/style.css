@@ -1,0 +1,107 @@
+@charset "UTF-8";
+* {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* 樣式 */
+/* 對應 HTML 5 標籤、id 、class */
+@media screen and (max-width: 576px) {
+  header nav #Works, header nav #Author, header nav #Project, header nav #Contant {
+    display: none;
+  }
+  footer nav #SubNavA, footer nav #SubNavB, footer nav #SubNavC {
+    width: 50%;
+    color: white;
+  }
+  header {
+    width: 100%;
+    background-color: #878ab6;
+  }
+  header nav li {
+    float: left;
+  }
+  header nav .Clear {
+    clear: both;
+  }
+  header nav #Logo {
+    width: 80%;
+    font-size: 16px;
+    text-indent: 30px;
+  }
+  header nav #Menu {
+    width: 15%;
+  }
+  footer nav #SubNavA {
+    background-color: blue;
+  }
+  footer nav #SubNavB {
+    background-color: blueviolet;
+  }
+  footer nav #SubNavC {
+    background-color: brown;
+  }
+}
+
+@media screen and (min-width: 576px) {
+  header {
+    width: 100%;
+    height: 100px;
+    background-color: #878ab6;
+  }
+  footer nav #SubNavA {
+    background-color: blue;
+  }
+  footer nav #SubNavB {
+    background-color: blueviolet;
+  }
+  footer nav #SubNavC {
+    background-color: brown;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #Menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  main {
+    /* 寬度 */
+    width: 100%;
+    /* 背景顏色 */
+    background-color: #72ce3e;
+    /* 文字顏色 */
+    color: #3e4933;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    /* 寬度 */
+    width: 100%;
+    /* 背景顏色 */
+    background-color: #c4acac;
+    /* 文字顏色 */
+    color: #3e4933;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  main {
+    /* 寬度 */
+    width: 100%;
+    /* 背景顏色 */
+    background-color: #9c2488;
+    /* 文字顏色 */
+    color: #3e4933;
+  }
+}
+/*# sourceMappingURL=style.css.map */
