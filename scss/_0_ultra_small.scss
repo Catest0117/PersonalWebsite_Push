@@ -21,10 +21,12 @@ header{
         }
         #Logo{
             width: $W8;
-            font-size: $Text*4;
+            font-size: $Text;
+            text-indent: 30px;
+            //line-height: 80*0.15+px;
         }
         #Menu{
-            width: $W2;
+            width: $W1+5%;
         }        
         #Works, #Author, #Project, #Contant{
             @extend %Dn;
